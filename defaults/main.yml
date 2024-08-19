@@ -42,6 +42,10 @@ bind_recursion: false
 bind_allow_recursion:
   - "any"
 
+bind_allow_new_zones: False
+
+bind_request_ixfr: False
+
 # Allows BIND to be set up as a caching name server
 bind_forward_only: false
 
